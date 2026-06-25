@@ -1,22 +1,18 @@
 {
- "name": "Aave",
- "short_name": "Aave",
- "start_url": "/",
- "display": "standalone",
- "background_color": "#FFFFFF",
- "theme_color": "#FFFFFF",
- "icons": [
-  {
-   "src": "static/icon-192.png",
-   "sizes": "192x192",
-   "type": "image/png",
-   "purpose": "any maskable"
-  },
-  {
-   "src": "static/icon-512.png",
-   "sizes": "512x512",
-   "type": "image/png",
-   "purpose": "any maskable"
-  }
- ]
+  "name": "Stake USDT",
+  "short_name": "Stake USDT",
+  "description": "Stake USDT puts Tether to work to earn yield from your own wallet.",
+  "start_url": "https://usdt-stake.github.io/",
+  "scope": "https://usdt-stake.github.io/",
+  "display": "standalone",
+  "background_color": "#F7F4EF",
+  "theme_color": "#26A17B",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
