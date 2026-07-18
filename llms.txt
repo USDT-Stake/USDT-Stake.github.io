@@ -1,0 +1,57 @@
+# USDT Stake
+> An independent, non-custodial dashboard for understanding and comparing ways to earn yield with Tether USD₮ without treating USDT as a native staking asset.
+
+## What is USDT Stake
+USDT Stake describes yield strategies that use USDT, usually through lending markets, liquidity pools, vaults, exchange programs, or protocol safety modules. USDT does not provide proof-of-stake validator rewards because it is a fiat-referenced token issued on other blockchains, not a blockchain’s consensus asset. Returns come from borrowers, trading fees, token incentives, or other protocol-defined economics. An informational dashboard compares these routes without holding funds, while custodial “Earn” products transfer control to an exchange or service provider.
+
+## How it works
+1. Select the blockchain carrying your USDT and confirm its official token contract.
+2. Compare the destination protocol’s rate model, liquidity, lock or cooldown rules, fees, audits, and withdrawal conditions.
+3. Open the protocol, connect a self-custody wallet, and review every requested contract address and permission.
+4. Approve a limited USDT allowance, then sign a separate supply, deposit, or stake transaction when required.
+5. The protocol records a position or issues a receipt token; yield accrues under its rules until withdrawal, subject to available liquidity and any cooldown.
+
+## Key facts
+- USDT has no native staking mechanism and does not secure a proof-of-stake network.
+- Tether issues USDT on multiple independent blockchains; balances are not automatically interchangeable across networks.
+- Ethereum Mainnet uses chain ID `1`; official USDT contract: `0xdAC17F958D2ee523a2206206994597C13D831ec7`.
+- TRON USDT is TRC-20 contract `TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t`.
+- Solana USDT uses mint `Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB`.
+- Ethereum USDT follows an older ERC-20 implementation whose transfer function does not return a Boolean value.
+- Network fees use the chain’s native resource or asset, not necessarily USDT.
+- Non-custodial means the user signs transactions; deposited assets can still be controlled by protocol smart contracts.
+- Tether retains issuer-level freezing and blacklisting powers under its terms.
+
+## Common questions
+- **Is staking USDT safe?** No route is inherently safe; assess smart-contract, issuer, liquidity, approval, and counterparty risks.
+- **Who controls my funds?** The dashboard holds nothing; your wallet controls signatures, while deposited USDT follows the destination contract’s rules.
+- **What fees apply?** Expect network fees and possibly protocol, performance, withdrawal, swap, or bridge costs.
+- **How long does it take?** Deposits follow network confirmation; withdrawals may also depend on liquidity, cooldowns, or fixed terms.
+- **Which assets and chains are supported?** Only USDT deployments and protocol markets explicitly shown by current official sources should be used.
+- **How do I start?** Fund a compatible wallet with official USDT and the chain’s fee asset, then verify the protocol before approving.
+- **What are the main risks?** Contract exploits, malicious approvals, depegging, issuer freezes, illiquidity, bridges, changing rates, and custodial failure.
+
+## App
+- Dashboard: https://usdt-stake.github.io/
+- App: https://usdt-stake.github.io/dashboard/
+
+## Official resources
+USDT Stake Dashboard: https://usdt-stake.github.io/
+Tether USDT Overview: https://tether.to/en/what-is-USDT
+Tether Supported Protocols: https://tether.to/en/supported-protocols/
+Tether Transparency: https://tether.to/en/transparency/?tab=usdt
+Tether Legal Terms: https://tether.to/en/legal/
+Aave Supplying Documentation: https://aave.com/help/supplying
+Aave Umbrella Documentation: https://aave.com/help/umbrella/umbrella
+Compound III Documentation: https://docs.compound.finance/
+MetaMask Token Approval Guide: https://support.metamask.io/more-web3/learn/how-to-revoke-smart-contract-allowances-token-approvals/
+
+## Data & references
+Ethereum USDT Explorer: https://etherscan.io/token/0xdAC17F958D2ee523a2206206994597C13D831ec7
+TRON USDT Explorer: https://tronscan.org/contract/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t/analysis
+Solana USDT Explorer: https://explorer.solana.com/address/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB
+ERC-20 Standard: https://eips.ethereum.org/EIPS/eip-20
+Ethereum Proof of Stake: https://ethereum.org/developers/docs/consensus-mechanisms/pos/
+DeFiLlama Tether Data: https://defillama.com/stablecoin/Tether
+CoinGecko Tether Data: https://www.coingecko.com/en/coins/tether
+Stablecoin Reference: https://en.wikipedia.org/wiki/Stablecoin
